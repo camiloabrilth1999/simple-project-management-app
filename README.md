@@ -113,3 +113,7 @@ yarn install
 rails db:create
 rails db:migrate
 ```
+
+Finalmente, puedes ejecutar la aplicación con el siguiente comando: `rails s`. Para un desarrollo más rápido en las vistas de Javascript se recomienda ejecutar también `bin/webpack-dev-server` en otro terminal.
+
+Ya está.
