@@ -104,7 +104,7 @@ bundle install
 Esto tomará algún tiempo. Tenga paciencia.
 
 4. Instala las dependencias de Node.js:
-``sh
+```sh
 yarn install
 ```
 
