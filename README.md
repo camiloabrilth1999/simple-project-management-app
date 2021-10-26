@@ -12,11 +12,11 @@ Las siguientes dependencias son necesarias y deben ser instaladas antes de la in
 | Dependencia | Version | Instalación |
 |---|---|---|
 | PostgreSQL | 11 | [For Debian and related versions][5] |
-| Rbenv | latest | See below |
-| Ruby | 2.6.3 | See below |
-| NVM | latest | [Instructions][6] |
+| Rbenv | último | Ver más abajo |
+| Ruby | 2.6.3 | Ver más abajo |
+| NVM | último | [Instructions][6] |
 | Node.js (with NVM) | 14 LTS | See [above][6] |
-| Yarn | latest | See below |
+| Yarn | último | Ver más abajo |
 
 Después de instalar PostgreSQL, y para poder ser utilizado desde Ruby, es necesario configurar un superusuario (además del rol `postgres`). Se recomienda utilizar el mismo nombre de usuario de su máquina. Ejecute lo siguiente:
 
