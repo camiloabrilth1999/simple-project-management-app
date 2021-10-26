@@ -32,14 +32,14 @@ ALTER ROLE <user> WITH SUPERUSER;
 Rbenv te permite instalar y gestionar las versiones de Ruby fácilmente.
 
 Primero, asegúrate de que tienes todas las dependencias necesarias:
-``sh
+```sh
 sudo apt update
 
 sudo apt install -y curl gnupg2 dirmngr git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev libpq-dev imagemagick
 ```
 
 A continuación, para instalar Rbenv en su sistema, ejecute los siguientes comandos:
-``sh
+```sh
 cd
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
@@ -48,14 +48,14 @@ exec $SHELL
 ```
 
 El plugin de Rbenv `ruby-build` simplifica la instalación de nuevas versiones de Ruby. Por lo tanto, necesitas ejecutar los siguientes comandos:
-``sh
+```sh
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 exec $SHELL
 ```
 
 A continuación, puedes instalar Ruby:
-``sh
+```sh
 rbenv install 2.7.2
 ```
 
@@ -71,13 +71,13 @@ Después de esto, puedes comprobar si Ruby fue instalado con éxito con el coman
 ## Instalación de Yarn
 
 El paquete Yarn está disponible en el repositorio Yarn. Ejecute los siguientes comandos para importar la clave GPG del repositorio y habilitar el repositorio APT:
-``sh
+```sh
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ```
 
 Una vez habilitado el repositorio, actualiza el índice de paquetes e instala Yarn:
-``sh
+```sh
 sudo apt update
 sudo apt install --no-install-recommends yarn
 ```
