@@ -13,7 +13,7 @@ Las siguientes dependencias son necesarias y deben ser instaladas antes de la in
 |---|---|---|
 | PostgreSQL | 11 | [For Debian and related versions][5] |
 | Rbenv | latest | See below |
-| Ruby | 2.7.2 | See below |
+| Ruby | 2.6.3 | See below |
 | NVM | latest | [Instructions][6] |
 | Node.js (with NVM) | 14 LTS | See [above][6] |
 | Yarn | latest | See below |
@@ -56,14 +56,14 @@ exec $SHELL
 
 A continuación, puedes instalar Ruby:
 ```sh
-rbenv install 2.7.2
+rbenv install 2.6.3
 ```
 
 El comando anterior puede ser lento. Por favor, ten paciencia.
 
 Una vez finalizado, necesitas configurar esto como versión global en todos los entornos de Ruby:
 ```sh
-rbenv global 2.7.2
+rbenv global 2.6.3
 ```
 
 Después de esto, puedes comprobar si Ruby fue instalado con éxito con el comando `ruby -v`
