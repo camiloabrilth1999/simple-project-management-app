@@ -87,7 +87,7 @@ Verifica la instalación imprimiendo el número de versión de Yarn: `yarn --ver
 ## Instalación de simple-project-management-app
 
 1. Instalar bundler:
-``sh
+```sh
 gem install bundler
 ```
 
