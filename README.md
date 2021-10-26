@@ -11,7 +11,7 @@ Las siguientes dependencias son necesarias y deben ser instaladas antes de la in
 
 | Dependencia | Version | Instalación |
 |---|---|---|
-| PostgreSQL | 11 | [For Debian and related versions][5] |
+| PostgreSQL | 11 | [For Debian and related versions](https://www.postgresql.org/download/linux/debian/) |
 | Rbenv | último | Ver más abajo |
 | Ruby | 2.6.3 | Ver más abajo |
 | NVM | último | [Instructions][6] |
