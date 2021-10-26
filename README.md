@@ -117,3 +117,9 @@ rails db:migrate
 Finalmente, puedes ejecutar la aplicación con el siguiente comando: `rails s`. Para un desarrollo más rápido en las vistas de Javascript se recomienda ejecutar también `bin/webpack-dev-server` en otro terminal.
 
 Ya está.
+
+------------------------------------------
+
+## Si tienes inconvenientes:
+
+Si tienes inconvenientes con dejamos un tutorial adicional para Ubuntu 20.04 pero hay muchas más versiones y otros sistemas operativos: https://gorails.com/setup/ubuntu/20.04
