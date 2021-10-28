@@ -122,4 +122,4 @@ Ya está.
 
 ## Si tienes inconvenientes:
 
-Si tienes inconvenientes con el presente tutorail, te dejamos un tutorial adicional para Ubuntu 20.04 pero hay muchas más versiones y otros sistemas operativos: https://gorails.com/setup/ubuntu/20.04
+Si tienes inconvenientes con dejamos un tutorial adicional para Ubuntu 20.04 pero hay muchas más versiones y otros sistemas operativos: https://gorails.com/setup/ubuntu/20.04
